@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Technical Documentation Page</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>JS Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li>
+                <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#javascript_and_java">JavaScript and Java</a>
+            </li>
+            <li><a class="nav-link" href="#Variables">Variables</a></li>
+            <li><a class="nav-link" href="#Constants">Constants</a></li>
+            <li><a class="nav-link" href="#Data_types">Data types</a></li>
+            <li><a class="nav-link" href="#Function_declarations">Function declarations</a>
+            </li>
+            <li><a class="nav-link" href="#Reference">Reference</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>
+                JavaScript is a lightweight, cross-platform, and interpreted scripting language. It is well-known for
+                the
+                development of web pages, many non-browser environments also use it. JavaScript can be used for
+                Client-side
+                developments as well as Server-side developments. JavaScript contains a standard library of objects,
+                like;
+            </p>
+            <ul>
+                <li>Array</li>
+                <li>Date</li>
+                <li>Math</li>
+                <li> and a core set of language elements like operators, control structures, and statements. </li>
+            </ul>
+
+            <section class="main-section" id="What_you_should_already_know">
+                <header>What you should already know</header>
+                <article>
+                    <p>This guide assumes you have the following basic background:</p>
+                    <ul>
+                        <li>
+                            A general understanding of the Internet and the World Wide Web (WWW).
+                        </li>
+                        <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+                        <li>
+                            Some programming experience. If you are new to programming, try one of
+                            the tutorials linked on the main page about JavaScript.
+                        </li>
+                    </ul>
+                </article>
+
+                <section class="main-section" id="javascript_and_java">
+                    <header>JavaScript and Java</header>
+                    <article>
+                        <p>According to the Java platform official website, the main difference between Java and
+                            JavaScript
+                            is that Java is an OOP programming language while JavaScript is an OOP programming script.
+                            JavaScript code is written completely in text and need only be interpreted. Java, on the
+                            other
+                            hand, must be compiled.
+                        </p>
+                        <p>They are also used for different types of projects. Java is used to make applications on
+                            devices
+                            or browsers, while JavaScript is used primarily on HTML documents and browsers. Different
+                            plug-ins are used in order to use Java and JavaScript.
+                        </p>
+                    </article>
+
+                    <section class="main-section" id="Variables">
+                        <header>Variables</header>
+                        <article>
+                            <p>A JavaScript variable is simply a name of storage location. There are two types of
+                                variables
+                                in JavaScript : local variable and global variable.</p>
+                            <p>There are some rules while declaring a JavaScript variable (also known as
+                                <em>identifiers</em>).
+                            </p>
+                            <ol>
+                                <li>Name must start with a letter <code>(a to z or A to Z)</code>
+                                    <code> underscore( _ )</code> or <code>dollar( $ ) sign.</code>
+                                </li>
+                                <li>After first letter we can use digits (0 to 9), for example value1. </li>
+                                <li>JavaScript variables are case sensitive, for example x and X are different
+                                    variables.
+                                </li>
+                            </ol>
+                        </article>
+
+                        <section class="main-section" id="Constants">
+                            <header>Constants</header>
+                            <article>
+                                <p> The const keyword was introduced in ES6 (2015).</p>
+                                <ul>
+                                    <li>Variables defined with const cannot be Redeclared. </li>
+                                    <li>Variables defined with const cannot be Reassigned.</li>
+                                    <li>Variables defined with const have Block Scope.</li>
+                                    <p> The keyword const is a little misleading.It does not define a constant value. It
+                                        defines a constant reference to a value.Because of this you can NOT:</p>
+                                    <ul>
+                                        <li>Reassign a constant value </li>
+                                        <li>Reassign a constant array </li>
+                                        <li>Reassign a constant object </li>
+                                    </ul>
+                                    <p>But you CAN: </p>
+                                    <ul>
+                                        <li>Change the elements of constant array </li>
+                                        <li>Change the properties of constant object
+                                        </li>
+                                    </ul>
+                            </article>
+
+                            <section class="main-section" id="Data_types">
+                                <header>Data types</header>
+                                <article>
+                                    <p>Data types in JavaScript describe the different types or kinds of data that you
+                                        will
+                                        be working with and storing in variables. It’s important that you learn each of
+                                        these data types because otherwise data can get stored in an improper format
+                                        which
+                                        will result in issues in your code later on. </p>
+                                    <p>Data types describe the different types or kinds of data that we’re gonna be
+                                        working
+                                        with and storing in variables.</p>
+                                    <p>
+                                        In Javascript, there are five basic, or primitive, types of data. The five most
+                                        basic types of data are<em> strings, numbers, booleans, undefined, and
+                                            null.</em> We
+                                        refer to these as primitive data types. A single variable can only store a
+                                        single
+                                        type of data. That means it’s important for you to learn to store the data
+                                        correctly.</p>
+                                    <p>
+                                        The computer is gonna identify what type of data you’re working with based off
+                                        of
+                                        the syntax, or the way that you write the code. It’s important that you remember
+                                        and
+                                        practice these differences, otherwise, data could get stored in an improper
+                                        format
+                                        and bite you later. </p>
+                                </article>
+
+                                <section class="main-section" id="Function_declarations">
+                                    <header>Function Declarations</header>
+                                    <article>
+                                        <p>A function is a group of statements that, together, perform a task. A
+                                            function
+                                            declaration tells the JavaScript engine about a function’s name, return
+                                            type,
+                                            and parameters. When a function has been declared, it can be used anytime
+                                            inside
+                                            a class or development scope whenever it’s been called/invoked.
+                                        </p>
+                                        <p> To declare a function, it must start with <code>function name()</code> just
+                                            like
+                                            a variable declaration must start with <code> Var.</code>
+                                    </article>
+                                    <footer>
+                                        <section class="main-section" id="Reference">
+                                            <header>Reference</header>
+                                            <p> All the documentation in this page is taken from;</p>
+                                            <ul>
+                                                <li>
+                                                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+                                                        target="_blank"">MDN<a></li>                                           <li>
+    <a href=" https://www.thesoftwareguild.com/faq/difference-between-java-and-javascript/#:~:text=According%20to%20the%20Java%20platform,other%20hand%2C%20must%20be%20compiled."
+                                                        target="_blank">SoftwareGuild </a>
+                                                </li>
+                                                <li>
+                                                    <a href="" target="_blank">JavaTpoint</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.w3schools.com/js/js_const.asp"
+                                                        target="_blank">W3schools </a>
+                                                </li>
+                                                <li><a href="https://devmountain.com/blog/what-are-data-types-javascript-101/"
+                                                        target="_blank">Devmountain </a></li>
+                                                <li>
+                                                    <a href="https://betterprogramming.pub/newbie-js-function-declaration-vs-function-expression-a3ae67573270"
+                                                        target="_blank">Newbie.js </a>
+                                                </li>
+                                            </ul>
+                                    </footer>
+</body>
+
+</html>
